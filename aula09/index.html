@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos em JavaScript</title>
+    <style>
+        body{
+            background-color: rgb(21, 59, 129);
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Iniciando estudos DOM</h1>
+    <p>Aqui vem o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div>Clique aqui</div>
+
+    <script>
+        let p1 = document.getElementsByTagName("p")[0]
+        document.write(p1.innerText)
+    </script>
+</body>
+</html>
